@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Spongebobory</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Welcome to Spongebobory!</h1>
+
+    <p>
+      Welcome to the game! Choose a difficulty and repeat the patten when the timer starts!
+    </p>
+    <button class="startBtn" id="easyBtn" onclick="startGame(6)">
+      Easy
+    </button>
+    <button class="startBtn" id="medBtn" onclick="startGame(8)">
+      Medium
+    </button>
+    <button class="startBtn" id="hardBtn" onclick="startGame(10)">
+      Hard
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    <div id="timer">
+    </div>
+    <div id="gameButtonArea">
+      <audio
+        src="https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fspongebob.mp3?v=1616176463698"
+        id="spongebobAudio"
+        loop="true"
+      ></audio>
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startSound(1)"
+        onmouseup="stopSound(1)"
+      ></button>
+      <audio
+        src="https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fsquidward.mp3?v=1616176463698"
+        id="squidwardAudio"
+        loop="true"
+      ></audio>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startSound(2)"
+        onmouseup="stopSound(2)"
+      ></button>
+      <audio
+        src="https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fpatrick.mp3?v=1616176463698"
+        id="patrickAudio"
+        loop="true"
+      ></audio>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startSound(3)"
+        onmouseup="stopSound(3)"
+      ></button>
+      <audio
+        src="https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fplankton.mp3?v=1616176463698"
+        id="planktonAudio"
+        loop="true"
+      ></audio>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startSound(4)"
+        onmouseup="stopSound(4)"
+      ></button>
+      <audio
+        src="https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fgary.mp3?v=1616176463698"
+        id="garyAudio"
+        loop="true"
+      ></audio>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startSound(5)"
+        onmouseup="stopSound(5)"
+      ></button>
+      <audio
+        src="https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fkrabs.mp3?v=1616176463698"
+        id="krabsAudio"
+        loop="true"
+      ></audio>
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startSound(6)"
+        onmouseup="stopSound(6)"
+      ></button>
+    </div>
+  </body>
+</html>
