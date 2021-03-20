@@ -1,0 +1,110 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white;
+}
+
+h1 {
+  font-style: italic;
+  font-family: verdana, arial, sans-serif;
+  color: #70ffff;
+}
+
+button {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.buttonImage{
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightyellow;
+  border-color:black;
+}
+
+#button1:active,
+#button1.lit {
+  background: yellow;
+  background-image: url("https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fspongebob.png?v=1616120964814");
+  background-size:200px;
+}
+
+#button2 {
+  background: lightblue;
+  border-color:black;
+}
+
+#button2:active,
+#button2.lit {
+  background: #6666ff;
+  background-image: url("https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fsquidward.png?v=1616122052759");
+  background-size:200px;
+}
+
+#button3 {
+  background: pink;
+  border-color:black;
+}
+
+#button3:active,
+#button3.lit {
+  background: #FF9999;
+  background-image: url("https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fpatrick.png?v=1616122549507");
+  background-size:200px;
+}
+
+#button4 {
+  background: lightgreen;
+  border-color:black;
+}
+
+#button4:active,
+#button4.lit {
+  background: green;
+  background-image: url("https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fplankton.png?v=1616125133299");
+  background-size:200px;
+}
+
+#button5 {
+  background: violet;
+  border-color:black;
+}
+
+#button5:active,
+#button5.lit {
+  background: purple;
+  background-image: url("https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fgary.png?v=1616125583434");
+  background-size:200px;
+}
+
+#button6 {
+  background: brown;
+  border-color:black;
+}
+
+#button6:active,
+#button6.lit {
+  background: red;
+  background-image: url("https://cdn.glitch.com/3c5c9fac-5e66-40b9-8473-29a965eac719%2Fkrabs.png?v=1616125725774");
+  background-size:200px;
+}
